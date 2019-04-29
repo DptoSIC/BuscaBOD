@@ -1,5 +1,7 @@
 # BuscaBOD
 
+Accede a la presentación: [presentación](https://slides.com/alekos/deck)
+
 ## 1.	ESTUDIO DE VIABILIDAD DEL SISTEMA 
 
 ### 1.1	Establecimiento del alcance del sistema
