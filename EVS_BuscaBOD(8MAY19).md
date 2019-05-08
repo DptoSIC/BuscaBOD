@@ -62,22 +62,22 @@ dentro de uno o varios archivos PDF, pero no se encuentra mantenida. El sistema
 se trata de un software de escritorio el cual solo puede ser accedido en
 plataformas “Windows”, y no permite compartir búsquedas entra usuarios.
 
-1.  *Catálogo objetivo del EVS:*
+2.  *Catálogo objetivo del EVS:*
 
-2.  Detectar las necesidades de información de los futuros usuarios.
+  Detectar las necesidades de información de los futuros usuarios.
 
-3.  Conocer las limitaciones técnicas y legales para el trato de información
+  Conocer las limitaciones técnicas y legales para el trato de información
     personal de carácter sensible protegida por el Reglamento General de
     Protección de Datos.
 
-4.  Conocer las limitaciones legales para el trato de información clasificada.
+  Conocer las limitaciones legales para el trato de información clasificada.
 
-5.  Detectar las fuentes de datos relacionadas con el SI.
+  Detectar las fuentes de datos relacionadas con el SI.
 
-6.  Delimitar un catálogo de requisitos que permita terminar el proceso de
+  Delimitar un catálogo de requisitos que permita terminar el proceso de
     diseño no más tarde del día XXXXXX.
 
-7.  *Alcance del sistema*
+3.  *Alcance del sistema*
 
 El sistema contará con la capacidad de realizar búsquedas de cualquier dato en
 uno o varios archivos PDF, permitiendo el guardado de los resultados.
@@ -90,7 +90,7 @@ El sistema contará con una gestión de usuarios y perfiles.
 
 El sistema deberá ser accesible a través de un navegador web.
 
-1.  *Estudio de restricciones*
+4.  *Estudio de restricciones*
 
 Se contemplan restricciones de tipo temporal, restricciones técnicas tanto de
 hardware como de software, así como restricciones legales que deben estar
@@ -123,8 +123,6 @@ El actual sistema se basa en un programa basado en Visual Basic, el cual realiza
 una búsqueda según los parámetros establecidos, en uno o varios documentos PDF.
 Es un software de “”escritorio”, el cual no requiere de una instalación, pero sí
 de disponer de “Adobe Acrobat Reader” en el equipo.
-
-![](media/d642bbe898874ddf81ffa676c4c971b7.png)
 
 **EVS 2.2.- IDENTIFICACIÓN DE LOS USUARIOS PARTICIPANTES EN EL ESTUDIO DE LA
 SITUACIÓN ACTUAL**
@@ -230,16 +228,7 @@ cliente.
     aplicación vio su primera versión en marzo de 2010 y la última versión es la
     1.1.22.
 
-    ![](media/ea6866860ff11509b29dca57817abecc.png)
-
-    Versión completa.
-
-    ![](media/27a85ce197c0ebda08b2c9d957210598.png)
-
-    Versión minimalista.
-
-    ![](media/bda3e55b11f0b2b39405ead35f365851.png)
-
+    
     Vista detalles.
 
     -   Ventajas:
@@ -277,8 +266,7 @@ cliente.
         -   Proyecto maduro que tiene mucho código que habría que estudiar
             detenidamente. Escasa documentación del funcionamiento interno.
 
-            ![](media/90cb5c18ee8616e123c549d295e82f4d.jpg)
-
+           
 -   **Alternativa 2. Buscador Adobe Acrobat Reader :**
 
     -   Ventajas:
@@ -308,8 +296,7 @@ cliente.
 
 -   **Alternativa 3. Desarrollo aplicación “BUSCA-PDF”:**
 
-    ![](media/54a57901a5c145fd61ba3359f5640d49.jpg)
-
+    
     -   Ventajas:
 
         -   Cubriría todos los requisitos.
