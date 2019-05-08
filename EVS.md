@@ -247,22 +247,22 @@ Hay que enseñar al personal a mantener la aplicación.
 - **Alternativa 1:**
 
 
-Se requiere la participación de un equipo de desarrolladores que estudien y adapten el código, o construyan nuevas interfaces conforme a las necesidades del cliente. Así mismo requiere recursos para el mantenimiento y la formación de los gestores de la aplicación
+  Se requiere la participación de un equipo de desarrolladores que estudien y adapten el código, o construyan nuevas interfaces conforme   a las necesidades del cliente. Así mismo requiere recursos para el mantenimiento y la formación de los gestores de la aplicación
 
 
 - **Alternativa 2:**
 
-Requiere grupo de desarrolladores que realice la transformación del código fuente del producto ya existente a lenguaje Java. Se estima el coste de la documentación a generar.
+  Requiere grupo de desarrolladores que realice la transformación del código fuente del producto ya existente a lenguaje Java. Se estima   el coste de la documentación a generar.
 
 - **Alternativa 3**:
 
-Requiere gasto en desarrolladores y su mantenimiento posterior, así mismo requiere gasto en formación del personal encargado de la gestión de usuarios. Si bien el coste de personal es similar en todas las alternativas, requiere de un mayor margen de tiempo para su construcción.
-Esta alternativa precisa de mayores recursos humanos para su realización, cuyo resultado es un software adaptado a las necesidades del cliente
+  Requiere gasto en desarrolladores y su mantenimiento posterior, así mismo requiere gasto en formación del personal encargado de la       gestión de usuarios. Si bien el coste de personal es similar en todas las alternativas, requiere de un mayor margen de tiempo para su   construcción.
+  Esta alternativa precisa de mayores recursos humanos para su realización, cuyo resultado es un software adaptado a las necesidades del   cliente
 
 
 - **Alternativa 4**:
 
-Requiere gasto en grupo de desarrolladores para construcción y en mantenimiento de la aplicación. Así mismo requiere recursos humanos y monetarios para estudiar y familiarizarse con la librería utilizada que si bien esta mantenida es de uso complejo y la documentación es escasa.
+  Requiere gasto en grupo de desarrolladores para construcción y en mantenimiento de la aplicación. Así mismo requiere recursos humanos   y monetarios para estudiar y familiarizarse con la librería utilizada que si bien esta mantenida es de uso complejo y la documentación   es escasa.
 
 ### EVS 5.2. Estudio de los riesgos
 
