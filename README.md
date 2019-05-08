@@ -2,19 +2,69 @@
 
 Accede a la presentación: [presentación](https://slides.com/alekos/deck)
 
-## 1.	ESTUDIO DE VIABILIDAD DEL SISTEMA 
+## EVS 1.	ESTABLECIMIENTO DEL ALCANCE DEL SISTEMA 
 
-### 1.1	Establecimiento del alcance del sistema
+### EVS 1.1	Estudio de la solicitud
 
-#### 1.1.1	Descripción General del Sistema 
-El sistema a desarrollar tiene como meta permitir realizar búsquedas dentro de un archivo PDF o grupo de ficheros PDF, como por ejemplo el Boletín Oficial de Defensa para que a través de una o varias palabras se obtenga un resultado de coincidencia parcial o total de los documentos objeto de búsqueda.
+#### 1.	Descripción General del Sistema 
+Actualmente, el cliente dispone de un sistema, el cual permite hacer búsquedas dentro de uno o varios archivos PDF, pero no se encuentra mantenida. El sistema se trata de un software de escritorio el cual solo puede ser accedido en plataformas “Windows”, y no permite compartir búsquedas entra usuarios.
 
-#### 1.1.2	Identificación del alcance del sistema
-El sistema no realizara funciones de modificación de documentos ya que la empresa cuenta con herramientas que cumple dichas labores, pero este sistema contará con la capacidad de realizar búsquedas de cualquier dato en el interior de los documentos, (guardando dichos resultados en otro archivo)  y sobre todo permitir a los usuarios la reutilización de búsquedas anteriormente guardadas o la búsqueda en listas de documentos cargados con anterioridad en el sistema.
+#### 2	Catálogo de objetivos del EVS
 
-### 1.2.	Catálogo de Requisitos 
+1.	Detectar las necesidades de información de los futuros usuarios.
+2.	Conocer las limitaciones técnicas y legales para el trato de información personal de carácter sensible protegida por el Reglamento General de Protección de Datos.
+3.	Conocer las limitaciones legales para el trato de información clasificada.
+4.	Detectar las fuentes de datos relacionadas con el SI.
+5.	Delimitar un catálogo de requisitos que permita terminar el proceso de diseño no más tarde del día XXXXXX.
 
-#### 1.2.1	Requisitos funcionales:
+#### 3. Alcance del sistema
+El sistema contará con la capacidad de realizar búsquedas de cualquier dato en uno o varios archivos PDF, permitiendo el guardado de los resultados.
+El sistema permitirá reutilizar los parámetros usados en anteriores búsquedas.
+El sistema no realizara funciones de modificación de documentos.
+El sistema contará con una gestión de usuarios y perfiles.
+El sistema deberá ser accesible a través de un navegador web. 
+
+#### 4. Estudio de restricciones
+Se contemplan restricciones de tipo temporal, restricciones técnicas tanto de hardware como de software, así como restricciones legales que deben estar conforme a los estándares vigentes.
+
+### EVS 1.2. Identificacion del alcance del sistema
+El cliente desea disponer de un sistema que permita poder realizar búsquedas dentro de un archivo PDF o grupo de ficheros PDF, como por ejemplo el Boletín Oficial de Defensa para que a través de una o varias palabras se obtenga un resultado de coincidencia parcial o total de los documentos objeto de búsqueda. A dicho sistema se deberá acceder mediante web, y deberá contar con una gestión de usuarios/perfiles, para así poder agilizar el trabajo del personal perteneciente a la misma unidad/núcleo. Así mismo, se deberá poder acceder a antiguos parámetros de búsqueda para poder ser reutilizados.
+
+### EVS 1.3. Especificación del alcance del EVS
+Se pretende estudiar en profundidad la situación actual, para así averiguar si es posible crear un sistema informático que mejore el sistema actual, tanto en usabilidad, incremento de funcionalidades y seguridad de la información, así como una mayor automatización de los procesos. Para ello se llevará un proceso de estudio para evaluar su viabilidad y, en su caso, ofrecer posibles opciones.
+
+## EVS 2.	ESTUDIO DE LA SITUACION ACTUAL
+
+### EVS 2.1. Valoracion del estudio de la situacion actual
+
+El actual sistema se basa en un programa basado en Visual Basic, el cual realiza una búsqueda según los parámetros establecidos, en uno o varios documentos PDF. Es un software de “”escritorio”, el cual no requiere de una instalación, pero sí de disponer de “Adobe Acrobat Reader” en el equipo.
+
+![alt text](https://raw.githubusercontent.com/DptoSIC/BuscaBOD/master/imagenes%20busca%20bod/buscaBOD.png "BUSCA BOD")
+
+### EVS 2.2. Identificacion de los usuarios participantes en el estudio de la situacion actual
+-Equipo de desarrollo del proyecto.
+-Cliente.
+-Usuarios del sistema. 
+-Administrador/gestor del sistema.
+
+### EVS 2.3. Realizacion del diagnóstico de la situación actual
+
+La aplicación “Buscar cadenas en el BOD” en su versión 1.1 no está mantenida ni se dispone actualmente de código fuente, por lo que no se podrían realizar actualizaciones o cambios.
+El equipo de desarrollo no domina Visual Basic, por lo tanto, para valorar la continuación de este proyecto habría que incluir los costes de formar al equipo en esta tecnología.
+Esta tecnología está obsoleta, no tiene soporte por Microsoft y no soportada por la A.T.U del Ejército de Tierra, por lo que para poder implantarla habría que incluirla, en todo caso.
+Otro de los requisitos por el cliente es que la aplicación se encuentre en lenguaje Java, por lo que esta aplicación no lo cumpliría al estar desarrollada en otro lenguaje, visual basic.
+Por otra parte, la aplicación actualmente no abarca todos los requisitos planteados por el cliente, aunque sí los basados en búsquedas y resultados, faltarían los requerimientos sobre la conectividad y posibilidad de compartir búsquedas por roles y perfiles.
+
+## EVS 3.	DEFINICION DE LOS REQUISITOS DEL SISTEMA
+
+### EVS 3.1. Identificacion de las directrices y tecnicas de gestion
+
+Se tendrán en cuenta los planes de gestión de la configuración, de seguridad y de calidad realizados para esta aplicación. En aras de ofrecer un producto que se adapte lo más posible a las necesidades de los usuarios, para el desarrollo del sistema se introducirán técnicas de metodología AGILE cuando sea posible.
+
+### EVS 3.2/3.3. Identificacion y catálogo de requisitos 
+
+
+#### Requisitos funcionales
 
 | REQUISITO |	FUENTE |	DESCRIPCION |	PRIORIDAD |
 | ---- |:------:|:------------:|-----------|
@@ -25,7 +75,7 @@ El sistema no realizara funciones de modificación de documentos ya que la empre
 | RF5 |	CLIENTE |	Permitirá guardar los resultados de las búsquedas realizadas por cada usuario | BAJA |
 | RF6 |	CLIENTE |	Permitirá  buscar un listado de parámetros en archivos PDF | MEDIA |
  
-#### 1.2.2	Requisitos no funcionales:
+#### Requisitos no funcionales:
 
 | REQUISITO |	FUENTE |	DESCRIPCION |	PRIORIDAD |
 | ---- |:------:|:------------:|-----------|
@@ -34,45 +84,169 @@ El sistema no realizara funciones de modificación de documentos ya que la empre
 | RNF3 | JEFE DE PROYECTO	| El sistema deberá realizar las búsquedas de forma ágil | MEDIO |
 
 
-### 1.3.	Catálogo de participantes
+### Restricciones
 
-* **Jefe de proyecto**. Responsable del estudio y las posibles soluciones.
-* **Cliente**. Persona encargada de decidir los requisitos conforme a sus necesidades desde el punto de vista de la gestión y uso del sistema.
-* **Usuarios**. Como usuarios del sistema aportará sus opiniones del uso y mejoras de las actuales herramientas.
+Una restricción con la que nos encontramos en este proyecto es la temporal, ya que, al tratarse de un proyecto de prácticas, el tiempo está limitado a los 2 meses de duración de la asignatura.
+Se nos indica otra restricción, consistente en la imposibilidad de contar con un servidor externo expuesto en Internet, solo pudiendo contar con un servidor en la Intranet, por lo tanto hay que cumplir con la A.T.U marcada.
+El cliente muestra su interés por ver distintas opciones que contemplen, además de conectividad web, aplicación de escritorio.
 
-### 1.4.	Situación actual
+## EVS 4.	ESTUDIO DE LAS ALTERNATIVAS DE SOLUCION
 
-Anteriormente se disponía de  una aplicación, pero estaba limitada a buscar por número de DNI, y debido a la implantación de la LOPD dicha aplicación ha quedado obsoleta.  Actualmente se utiliza el buscador nativo del visor de PDF.
+### EVS 4.1. Preseleccion de las alternaticas de solucion
 
-### 1.5.	Alternativas estudiadas
+- **Alternativa 1:**
 
-#### **Alternativa 1** : 
-- Actualizar la aplicación anterior para que se ajuste a los requisitos del cliente.
-- Coste: 0
-- Riesgo:
-    - Código fuente desconocido.
-    - Imposibilidad de implementar mejoras.
-    - No esta mantenido.
-    - Es una aplicación de escritorio.
+Supone la adopción, modificación y mantenimiento de la solución “Docfetcher”.
 
-#### **Alternativa 2** :
-- Creación de un Script para seguir utilizando el buscador nativo del visor de PDF.
-- Coste: Bajo
-- Riesgo:
-    - No existe la posibilidad de guardar búsquedas ni resultados.
-    - En el momento que se varíe el buscador nativo de Adobe, es probable que haya que cambiar el Script.
-    - Siempre se tiene que tener el Script con uno mismo para poder hacer búsquedas.
-#### **Alternativa 3**:
-- Generar una nueva aplicación ajustándose a los requisitos del cliente.
-- Coste: Medio / bajo.
-- Riesgo:
-    - Necesidad de mantener el servidor de datos y usuarios.
-    
+- **Alternativa 2:**
+
+Usar el buscador nativo del “Adobe Acrobat Reader”.
+
+- **Alternativa 3**:
+
+Generar una nueva aplicación con gestion de usuarios ajustándose a los requisitos del cliente.
+
+- **Alternativa 4**:
+
+Supone la generación de una nueva aplicación ajustándose a los requisitos del cliente.
+
+
+### EVS 4.2. Descripcion de las alternativas de solucion
+
+- **Alternativa 1:**
+
+Docfetcher (http://docfetcher.sourceforge.net/) es un proyecto “open source” con licencia “Eclipse Public License”, escrito en Java, usando como interfaz de usuario SWT (Standard Widget Toolkit) desarrollado por Eclipse. Esta aplicación vio su primera versión en marzo de 2010 y la última versión es la 1.1.22.
+
+![alt text](https://raw.githubusercontent.com/DptoSIC/BuscaBOD/master/imagenes%20busca%20bod/docfec1.png "Version Completa")
+
+![alt text](https://raw.githubusercontent.com/DptoSIC/BuscaBOD/master/imagenes%20busca%20bod/docfec2.png "Version minimalista")
+
+![alt text](https://raw.githubusercontent.com/DptoSIC/BuscaBOD/master/imagenes%20busca%20bod/docfec3.png "Vista detalles")
+
+- Ventajas:
+
+Cumple los requisitos de búsqueda, guardar búsqueda y guardar resultado.
+Cumple los requisitos de buscar en uno o varios archivos PDF, incluyendo otros formatos como HTML, Office y OpenOffice.
+Es multiplataforma, Windows, OSX y Linux.
+Esta íntegramente escrita en Java.
+Tiene una versión portable.
+Incluye búsquedas por expresiones regulares y múltiples opciones que pueden ser de interés para el cliente: soporte unicode, búsqueda en archivos de código fuente, detección de tipo MIME, búsqueda en archivos PTS (Outlook), soporta ficheros comprimidos .zip y la familia .tar
+Buena documentación para construir.
+
+- Inconvenientes:
+No es accesible desde una URL. Es una aplicación de escritorio.
+No está disponible para dispositivos móviles.
+No tiene gestión de usuarios.
+Requiere Java 1.7 y Python para construir.
+Proyecto maduro que tiene mucho código que habría que estudiar detenidamente. Escasa documentación del funcionamiento interno.
+
+
+- **Alternativa 2. Buscador nativo Acrobat Adobe Reader**
+
+![alt text](https://raw.githubusercontent.com/DptoSIC/BuscaBOD/master/imagenes%20busca%20bod/adobe.jpg "Menu Avanzado Adobe")
+
+-	Ventajas:
+Ya se encuentra implementada en el software de Acrobat.
+Tiene opciones adicionales que son requisitos: solo palabras completas, sensible a mayúsculas.
+Cumple los requisitos de buscar en uno o varios PDF.
+Tiene otras opciones como incluir favoritos y comentarios.
+Adobe Acrobat Reader está disponible para Windows, Linux, HP-UX, AIX, Solaris, MacOS, y en móviles para iOS, Android, Blackberry Tablet, BlackBerry 10 y Windows Phone.
+
+- Inconvenientes:
+No es accesible desde una URL. Es una aplicación.
+No tiene gestión de usuarios.
+Requiere instalación.
+No está hecha en Java, está hecha en C++.
+
+
+- **Alternativa 3. Desarrollo aplicacion "BUSCA-PDF"**:
+
+![alt text](https://raw.githubusercontent.com/DptoSIC/BuscaBOD/master/imagenes%20busca%20bod/adobe.jpg "Menu Avanzado Adobe")
+
+-	Ventajas:
+Cubriría todos los requisitos.
+Sería multiplataforma.
+No requiere instalación (solo el servidor).
+Se dispondría del código fuente y la documentación para añadir nuevas funcionalidades.
+
+-	Desventajas:
+No se dispone ahora mismo del software, habría que desarrollarla.
+Hay que enseñar al personal a mantenerla.
+
+
+- **Alternativa 4. Creacion solucion basada en Javascript**:
+
+Se construiría una aplicación basada íntegramente en javascript, basada en la librería de Mozilla pdf.js (https://github.com/mozilla/pdf.js)
+
+-	Ventajas:
+Cubriría todos los requisitos.
+Sería multiplataforma.
+No requiere instalación.
+Se dispondría del código fuente y la documentación para añadir nuevas funcionalidades.
+La librería está mantenida y actualizada por Mozilla.
+
+-	Desventajas:
+No se dispone ahora mismo del software, habría que desarrollarla.
+La librería no implementa la opción de buscar en múltiples pdf, está pensada para ser un visor de pdf con opción de búsqueda.
+El uso de la librería no parece sencillo ni excesivamente bien documentado.
+Hay que enseñar al personal a mantener la aplicación.
+
+## EVS 5.	DEFINICION DE LOS REQUISITOS DEL SISTEMA
+
+### EVS 5.1. Estudio de la inversion
+
+- **Alternativa 1:**
+
+XXX
+
+- **Alternativa 2:**
+
+XXX
+
+- **Alternativa 3**:
+
+XXX
+
+- **Alternativa 4**:
+
+XXX
+
+### EVS 5.2. Estudio de los riesgos
+
+- **Alternativa 1:**
+
+o	Que no sea sencillo modificar la aplicación para adecuarla a los requisitos.
+o	Que la estructura interna sea poco reusable, muy dependiente y poco clara.
+
+
+- **Alternativa 2:**
+
+o	No existe la posibilidad de guardar búsquedas ni resultados.
+o	En el momento que se varíe el buscador nativo de Adobe, es probable que haya que cambiar el Script.
+o	Siempre se tiene que tener el Script con uno mismo para poder hacer búsquedas.
+
+
+- **Alternativa 3**:
+
+o	Que no se entregue en tiempo.
+o	Que encontremos dificultades en el manejo de la librería.
+o	Que no sea trivial la modificación de la librería para que permita buscar en varios pdf
+
+- **Alternativa 4**:
+
+o	Que encontremos dificultades en el manejo de la librería.
+o	Que el equipo de desarrollo no tenga los conocimientos suficientes para construir una aplicación web basada en esta tecnología.
+o	Que no sea trivial la modificación de la librería para que permita buscar en varios pdf.
+
+
+
+## ANEXO 1. MATRIZ CUMPLIMIENTO DE REQUISITOS DEL SISTEMA
 
 | REQ / ALT |	RF1 |	RF2 |	RF3 |	RF4 |	RF5 | RF6 |	RNF1 | RNF2 |	RNF3 |
 | ------ |:---:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |ALT1 (App Desktop)| | |X|X|X|X|||X|
 |ALT2 (Adobe)	| | |	X||||||X|
 |ALT3 (Busca PDF)|	X|	X|	X|	X|	X|	X|	X|	X|	X|
+|ALT4 (Busca App)|	|	|	X|	X|	X|	X|	X|	|	X|
 
 
