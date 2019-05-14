@@ -179,26 +179,26 @@ ASI 2.1.1.- REQUISITOS FUNCIONALES
 
 | Identificación  | RF2-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | Tras realizar el login el Usuario, el administrador podrá gestionar al mismo, y adjudicarle el rol y el grupo que estime conveniente.       |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       |  Media                                                                                                                                                                                                                                                                      |
 | Relacionado con | RF2                                                                                                                                                                                                                                                                       |
 
 | Identificación  | RF3-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El Usuario podrá realizar varios tios de busquedas, simples o avanzadas, utilizando para ello una palabra o conjunto de ellas, con el fin de conseguir coincidencias en los documentos examinados      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       | Alta                                                                                                                                                                                                                                                                      |
 | Relacionado con | RF3   
 
 | Identificación  | RF4-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | Tras realizar las busquedas correspondientes e independientemente del tipo que sean, el Usuario podrá guardar las busquedas realizadas para una consulta posterior.      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       |  Media                                                                                                                                                                                                                                                                    |
 | Relacionado con | RF4   
 
 | Identificación  | RF5-ERS                                                                                                                                                                                                                                                                   |
@@ -211,42 +211,42 @@ ASI 2.1.1.- REQUISITOS FUNCIONALES
 
 | Identificación  | RF6-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El Usuario podrá realizar busquedas utilizando distintos parametros o filtros para obtener un resultado mas preciso acorde a las necesidades del mismo.      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       |  Media                                                                                                                                                                                                                                                                     |
 | Relacionado con | RF6   
 
 | Identificación  | RF7-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | Conforme a la legislación vigente, el sistema advertirá a cada usuario, una vez realice el login, que la subida de archivos que por su naturaleza tengan protección será bajo la responsabilidad del Usuario        |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       | Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RF7   
 
 | Identificación  | RF8-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El sistema realizará acciones de autoborrado de todos aquellos documentos que no hayan sido modificados una vez trsncurridos siete (7) dias desde su ultima modificación.      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       | Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RF8   
 
 ERS 2.1.2.- REQUISITOS NO FUNCIONALES
 
 | Identificación  | RNF1-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El sistema deberá prestar servicio en todos aquellos ordenadores o equipos de hardware que estén conectado a la red WAN PG, sistema interno utilizado por el Ministerio de Defensa      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
 | Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RNF1   
 
 | Identificación  | RNF2-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El lenguaje de programación y posterior mantenimiento del sistema será JAVA,        |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                              |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
 | Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RNF2   
@@ -261,8 +261,8 @@ ERS 2.1.2.- REQUISITOS NO FUNCIONALES
 
 | Identificación  | RNF4-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El sistema deberá tener un bajo tiempo de respuesta para las acciones realizadas or cualquier Usuario, n siendo este tiempo superior a cinco (5) segundos.      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
 | Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RNF4   
@@ -287,14 +287,14 @@ De lo anterior se llega a la conclusión de que los casos de uso son:
 | **NUMERACIÓN** | **DESCRIPCIÓN**                           |
 |----------------|-------------------------------------------|
 | CU1            | Autenticar usuario.                       |
-| CU2            | Consultar Lista de Usuarios.              |
-| CU3            | Mantenimiento de un Usuario.              |
-| CU4            | Consultar lista de proveedores.           |
-| CU5            | Mantenimiento de un proveedor.            |
-| CU6            | Consultar Lista de Lotes.                 |
-| CU7            | Mantenimiento de un Lote.                 |
-| CU8            | Consultar lista de Tipos de Ejercicios.   |
-| CU9            | Mantenimiento de un Tipo de Ejercicio.    |
+| CU2            | Realizar búsqueda PDF              |
+| CU3            | Guardar parametros de búsqueda             |
+| CU4            | Guardar resultados de búsqueda.           |
+| CU5            | CRUD patrón búsqueda.            |
+| CU6            | Consultar resultado búsqueda.                |
+| CU7            | Borrar resultados búsqueda.                 |
+| CU8            | CRUD Usuario.    |
+| CU9            |    |
 | CU10           | Consultar lista de Tipos de Formatos.     |
 | CU11           | Mantenimiento de un Tipo de Formato.      |
 | CU12           | Consultar Catálogo de artículos.          |
