@@ -114,7 +114,12 @@ conseguir una mayor precisión en la especificación del sistema de información
 
 ### ERS 1.3.- MODELO DE NEGOCIO
 
+![alt text](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/Untitled%20Diagram.jpg "Modelo de Negocio")
+
 ### ERS 1.4.- MODELO DE DOMINIO
+
+![alt text](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/Modelo%20de%20dominio.jpg "Modelo de Dominio")
+
 
 ### ERS 1.5.- IDENTIFICACIÓN DEL ENTORNO TECNOLÓGICO
 
@@ -262,9 +267,11 @@ ERS 2.1.2.- REQUISITOS NO FUNCIONALES
 | Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RNF4   
                                                                    
-ERS 2.2.- DIAGRAMA DE CASOS DE USO
+### ERS 2.2.- DIAGRAMA DE CASOS DE USO
 
-ERS 2.3.- ESPECIFICACIÓN DE CASOS DE USO
+![alt text](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/Diagrama%20de%20Casos%20de%20Uso.jpg "Diagrama de Casos de Uso")
+
+### ERS 2.3.- ESPECIFICACIÓN DE CASOS DE USO
 
 Del estudio detallado de los Requisitos, se extraen los siguientes Actores del
 sistema.
@@ -272,9 +279,9 @@ sistema.
 | **Actor** | **Descripción**                                                                                                                                                                                                                                                                                           |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Usuario   | Persona responsable de realizar la busqueda en uno varios archivos |
-| Admin Grupo Trabajo | Encargado del mantenimiento de los Grupos de Trabajo creados por el.                                                                                                                                                                                                         |
-                                                                                                                                                                                                                                         |
+| Admin Grupo Trabajo | Encargado del mantenimiento de los Grupos de Trabajo creados por el.                                                                                                                                                                                                         
 
+                                                                                                                                                                                                                                        
 De lo anterior se llega a la conclusión de que los casos de uso son:
 
 | **NUMERACIÓN** | **DESCRIPCIÓN**                           |
