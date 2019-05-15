@@ -163,8 +163,8 @@ utilizando como **SGDB SQL Server 2012 (cambiar)**.
 |---------------|-----------------------------------------------------------------------------------------------------------|
 | RNF1          | El Sistema debe funcionar en cualquier ordenador conectado a la Red de Propósito General del MINISDEF.    |
 | RNF2          | El Sistema deberá programarse en entorno WEB, con lenguaje JAVA.                                          |
-| RNF3          | El Sistema deberá emplear el **SGBD SQL SERVER 2012**                                                     |
-| RNF4          | Toda funcionalidad del sistema y transacción de negocio debe responder al usuario en menos de 5 segundos. |
+| RNF3          | El Sistema no deberá tener salida a Internet                                                    |
+
 
 
 ASI 2.1.1.- REQUISITOS FUNCIONALES
@@ -195,7 +195,7 @@ ASI 2.1.1.- REQUISITOS FUNCIONALES
 
 | Identificación  | RF4-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     | Tras realizar las busquedas correspondientes e independientemente del tipo que sean, el Usuario podrá guardar las busquedas realizadas para una consulta posterior.      |  
+| Descripción     | Tras realizar las busquedas correspondientes e independientemente del tipo que sean, el Usuario podrá guardar los parámetros establecidos en la busqueda realizada para un uso posterior.      |  
 | Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
 | Prioridad       |  Media                                                                                                                                                                                                                                                                    |
@@ -203,10 +203,10 @@ ASI 2.1.1.- REQUISITOS FUNCIONALES
 
 | Identificación  | RF5-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     |  Tras realizar las busquedas correspondientes e independientemente del tipo que sean, el Usuario podrá guardar las busquedas realizadas para una consulta posterior.     |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
-| Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
+| Prioridad       | Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RF5   
 
 | Identificación  | RF6-ERS                                                                                                                                                                                                                                                                   |
@@ -253,8 +253,8 @@ ERS 2.1.2.- REQUISITOS NO FUNCIONALES
 
 | Identificación  | RNF3-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     |       |  
-| Tipo            | Requisito / Restriccion                                                                                                                                                                                                                                                                |
+| Descripción     | El sistema no tendrá salida a Internet, por lo que debe ser autonomo en una red privada.      |  
+| Tipo            | Restriccion                                                                                                                                                                                                                                                                |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
 | Prioridad       | Alta / Media / Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RNF3   
@@ -295,25 +295,7 @@ De lo anterior se llega a la conclusión de que los casos de uso son:
 | CU7            | Borrar resultados búsqueda.                 |
 | CU8            | CRUD Usuario.    |
 | CU9            |    |
-| CU10           | Consultar lista de Tipos de Formatos.     |
-| CU11           | Mantenimiento de un Tipo de Formato.      |
-| CU12           | Consultar Catálogo de artículos.          |
-| CU13           | Mantenimiento de un artículo.             |
-| CU14           | Consultar Lista de Unidades.              |
-| CU15           | Mantenimiento de una Unidad.              |
-| CU16           | Consultar Lista de Ejercicios.            |
-| CU17           | Mantenimiento de un Ejercicio.            |
-| CU18           | Consultar Lista de Pedidos.               |
-| CU19           | Creación de un Pedido.                    |
-| CU20           | Consultar/Modificar/Reutilizar un Pedido. |
-| CU21           | Revisar un Pedido.                        |
-| CU22           | Corregir un Pedido.                       |
-| CU23           | Validar un Pedido.                        |
-| CU24           | Lotear un pedido.                         |
-| CU25           | Listar pedidos de lotes por fechas.       |
-| CU26           | Comprobar un pedido de proveedor.         |
-| CU27           | Entregar un pedido a unidad consumidora.  |
-| CU28           | Mantener datos de configuración.          |
+
 
 Debido a la extensión del Sistema, el elevado número de casos de uso y el escaso
 tiempo que dispone el alumno para realizar la práctica, se han seleccionado tres
