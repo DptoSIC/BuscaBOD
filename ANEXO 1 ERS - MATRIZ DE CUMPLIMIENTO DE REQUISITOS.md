@@ -14,3 +14,6 @@ ANEXO 1: MATRIZ DE CUMPLIMIENTO DE REQUISITOS
 | CU9             | Mantenimiento de un Tipo de Ejercicio.  |       |       |       |       |       |       | X     |       |        |        |        |        |        |        |        |        |        |        |        |
 | CU10            | Consultar lista de Tipos de Formatos.   |       |       |       |       |       |       |       | X     | X      |        |        |        |        |        |        |        |        |        |        |
 | CU11            | Mantenimiento de un Tipo de Formato.    |       |       |       |       |       |       |       | X     |        |        |        |        |        |        |        |        |        |        |        |
+
+
+[Indice](https://github.com/DptoSIC/BuscaBOD/blob/master/ERS.md)
