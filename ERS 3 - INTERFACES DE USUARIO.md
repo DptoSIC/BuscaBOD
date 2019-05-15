@@ -1,82 +1,8 @@
-ERS 3.- INTERFACES DE USUARIO
+**ERS 3.- INTERFACES DE USUARIO**
 
-| Identificación  | RIUS1-ASI                                                                                                                                                                                                                                                      |             |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Descripción     | Los interfaces de los actores se realizarán mediante la creación de páginas web, utilizando los mismos colores y disposición de botones que la aplicación SIGEAL, dedicada también a la alimentación en el E.T.                                                |             |
-| Tipo            | Requisito                                                                                                                                                                                                                                                      | Restricción |
-| Fuente          | Analista                                                                                                                                                                                                                                                       |             |
-| Prioridad       | Alta                                                                                                                                                                                                                                                           | Media       |
-| Relacionado con |                                                                                                                                                                                                                                                                |             |
-| Identificación  | RIUS2-ASI                                                                                                                                                                                                                                                      |             |
-| Descripción     | La aplicación ofrecerá el mismo interfaz de usuario al acceder a la aplicación independientemente de si el usuario tiene el perfil CABTO, el perfil JIAE o el perfil unidad consumidora. Dependiendo del perfil, se le habilitarán o no las diversas opciones. |             |
-| Tipo            | Requisito                                                                                                                                                                                                                                                      | Restricción |
-| Fuente          | Analista                                                                                                                                                                                                                                                       |             |
-| Prioridad       | Alta                                                                                                                                                                                                                                                           | Media       |
-| Relacionado con |                                                                                                                                                                                                                                                                |             |
-| Identificación  | RIUS3-ASI                                                                                                                                                                                                                                                      |             |
-| Descripción     | En todas las interfaces, se podrá elegir en todo momento si se cancelan o aceptan las operaciones realizadas.                                                                                                                                                  |             |
-| Tipo            | Requisito                                                                                                                                                                                                                                                      | Restricción |
-| Fuente          | Analista                                                                                                                                                                                                                                                       |             |
-| Prioridad       | Alta                                                                                                                                                                                                                                                           | Media       |
-| Relacionado con |                                                                                                                                                                                                                                                                |             |
+***ERS 3.1- DEFINICIÓN DE LAS INTERFACES DE USUARIO***
 
-ASI 2.1.2.- INTERFACES DE HARDWARE
-
-| Identificación  | RIHW1-ASI                                                                                                                                          |             |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Descripción     | La aplicación deberá poder ser utilizada en los ordenadores que ya disponen las unidades del Ministerio de Defensa.                                |             |
-| Tipo            | Requisito                                                                                                                                          | Restricción |
-| Fuente          | Jefe Cía. Abto.                                                                                                                                    |             |
-| Prioridad       | Alta                                                                                                                                               | Media       |
-| Relacionado con |                                                                                                                                                    |             |
-| Identificación  | RIHW2-ASI                                                                                                                                          |             |
-| Descripción     | El servidor de la aplicación y el servidor de base de datos, será el que ya dispone el CGBRILOG en el Acuartelamiento de San Fernando en Zaragoza. |             |
-| Tipo            | Requisito                                                                                                                                          | Restricción |
-| Fuente          | Analista                                                                                                                                           |             |
-| Prioridad       | Alta                                                                                                                                               | Media       |
-| Relacionado con |                                                                                                                                                    |             |
-
-ASI 2.1.3.- INTERFACES DE SOFTWARE
-
-| Identificación  | RISW1-ASI                                                                                 |             |
-|-----------------|-------------------------------------------------------------------------------------------|-------------|
-| Descripción     | El Sistema deberá programarse en entorno WEB con ASP. NET y lenguaje de programación C\#. |             |
-| Tipo            | Requisito                                                                                 | Restricción |
-| Fuente          | Analista                                                                                  |             |
-| Prioridad       | Alta                                                                                      | Media       |
-| Relacionado con | RNF1                                                                                      |             |
-| Identificación  | RISW2-ASI                                                                                 |             |
-| Descripción     | El sistema gestor de base de datos a usar será, SQL Server 2012.                          |             |
-| Tipo            | Requisito                                                                                 | Restricción |
-| Fuente          | Analista                                                                                  |             |
-| Prioridad       | Alta                                                                                      | Media       |
-| Relacionado con | RNF2                                                                                      |             |
-
-ASI 2.1.4.- INTERFACES DE COMUNICACIONES
-
-| Identificación  | RICOM1-ASI                                                                                                                                             |             |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| Descripción     | La infraestructura de la red y sus comunicaciones se basarán en la Red de Propósito General del Ministerio de Defensa.                                 |             |
-| Tipo            | Requisito                                                                                                                                              | Restricción |
-| Fuente          | Analista                                                                                                                                               |             |
-| Prioridad       | Alta                                                                                                                                                   | Media       |
-| Relacionado con |                                                                                                                                                        |             |
-| Identificación  | RICOM2-ASI                                                                                                                                             |             |
-| Descripción     | Todas las solicitudes de datos al sistema, artículos, proveedores, pedidos, etc., serán tratados en tiempo real.                                       |             |
-| Tipo            | Requisito                                                                                                                                              | Restricción |
-| Fuente          | Analista                                                                                                                                               |             |
-| Prioridad       | Alta                                                                                                                                                   | Media       |
-| Relacionado con |                                                                                                                                                        |             |
-| Identificación  | RICOM3-ASI                                                                                                                                             |             |
-| Descripción     | El CABTO, deberá solicitar la creación de un correo electrónico genérico para ser usada como origen en los correos electrónicos que genere el Sistema. |             |
-| Tipo            | Requisito                                                                                                                                              | Restricción |
-| Fuente          | Analista                                                                                                                                               |             |
-| Prioridad       | Alta                                                                                                                                                   | Media       |
-| Relacionado con |                                                                                                                                                        |             |
-
-ERS 3.- DEFINICIÓN DE LAS INTERFACES DE USUARIO
-
-ASI 8.1.- ESPECIFICACIÓN DE PRINCIPIOS GENERALES DE LA INTERFAZ
+****ERS 3.1.- ESPECIFICACIÓN DE PRINCIPIOS GENERALES DE LA INTERFAZ****
 
 Para el desarrollo de las interfaces se usará una interfaz interactiva (gráfica,
 a base de ventanas) tomando como punto de partida el RIUS1-ASI que indica que
@@ -108,7 +34,7 @@ aplicación.
 
 ![](media/e462aee0a7d891a3d9ec677b3e65cf4a.png)
 
-ASI 8.3.- ESPECIFICACIÓN DE FORMATOS INDIVIDUALES DE LA INTERFAZ DE PANTALLA
+****ERS 3.2.- ESPECIFICACIÓN DE FORMATOS INDIVIDUALES DE LA INTERFAZ DE PANTALLA****
 
 A continuación, se presentarán las pantallas de la aplicación para los casos de
 uso descritos, desde un punto de vista estático, con los caminos alternativos
