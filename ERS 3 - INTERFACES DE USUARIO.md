@@ -134,3 +134,6 @@ Pantalla de Creación de un pedido
 Pantalla de Consulta de un pedido
 
 ![](media/9ad3d5bcf8a41b0493e7978414ee2dea.png)
+
+
+[Indice](https://github.com/DptoSIC/BuscaBOD/blob/master/ERS.md)
