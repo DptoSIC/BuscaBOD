@@ -49,10 +49,6 @@ aplicación.
 
 ![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Creacion%20_%20modificacion%20grupo.png)
 
-**CU12 - Crear Grupo de Trabajo**
-
-![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Creacion%20_%20modificacion%20grupo.png)
-
 **CU13 - Borrar Grupo de Trabajo**
 
 ![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Pantalla%20usuario.png)
