@@ -67,7 +67,7 @@ conseguir una mayor precisión en la especificación del sistema de información
 
 ### ERS 1.3.- MODELO DE NEGOCIO
 
-![alt text](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/Untitled%20Diagram.jpg "Modelo de Negocio")
+![alt text](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/modelo%20de%20negocio.jpg "Modelo de Negocio")
 
 ### ERS 1.4.- MODELO DE DOMINIO
 
