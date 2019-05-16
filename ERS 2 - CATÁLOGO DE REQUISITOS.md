@@ -172,267 +172,164 @@ considerado más importantes o relevantes.
 | **Postcondición**| El usuario queda autenticado y accede al sistema con las opciones autorizadas según su perfil.|||
 | **Autor**        | Analista               |        | |
 | **Descripción**  | El actor introduce su usuario y contraseña para autenticarse y acceder a determinados menús de la aplicación. | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| Inicia la aplicación.|**2**| Presenta Formulario de autenticación con cuadros de texto de nombre de usuario, contraseña y botón para inicio de sesión.|
-| **3**| Introduce su usuario y contraseña y pulsa botón iniciar sesión.| **4** | Realiza la comprobación y presenta la pantalla principal de la aplicación.|
-| **Caminos Alternativos**||||
-|**4b**|La contraseña o el usuario no son válidos. En ese caso el sistema muestra devuelve el mismo formulario con un mensaje notificando el error y se reinicia el CU.|||
-| **Otros datos** ||||
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+                                                                                                                                                                                                                                                                                                                                                                               
+
 
 
 | **Caso de Uso**  | **Realizar búsqueda en archivo/s PDF** |        |**CU2** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario    |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF3,RF6   |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El Usuario introduce las condiciones de la búsqueda que desea realizar.|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El Usuario podrá realizar diversos tipos de búsqueda en función de sus necesidades dentro de un archivo PDF |        | |
+                                                                                                                                                                                                                                                                                                                                                                               
+
 
 
 | **Caso de Uso**  | **Guardar parámetros de búsqueda** |        |**CU3** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario    |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF3,RF4  |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| EL sistema almacenará parametros de búsqueda que seran utilizados por el Usuario|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El usuario podrá almacenar en el sistema los parametros de búsqueda que estime oportunos para realziar las búsquedas en los documetos PDF |        | |
+                                                                                                                                                                                                                                                                                                                                                                             
+
 
 
 | **Caso de Uso**  | **Guardar resultado de búsqueda** |        |**CU4** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF5,RF6    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema almacenará los resultados de la búsqueda realizada para poder ser consultadas por el Usuario|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El Usuario podrá almacenar los resultados de las búsquedas realizadas en el sistema, para su posteior manipulación. |        | |
+
+                                                                                                                                                                                                                                                                                                                                                                              
+
 
 
 | **Caso de Uso**  | **Consultar patron de búsqueda** |        |**CU5** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario   |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF4,RF6    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema borrará los patrones de búsqueda seleccionados por el Usuario|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | el Usuario podrá eliminar del sistema los patrones que no necesite. |        | |
+                                                                                                                                                                                                                                                                                                                                                                               
+
 
 
 | **Caso de Uso**  | **Borrar patron de busqueda** |        |**CU6** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario    |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF4    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema eliminirá los patrones de búsqueda almacenados en el mismo|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El usuario puede borrar os patrones de búsqueda almacenados en el sistema que no necesita |        | |
+                                                                                                                                                                                                                                                                                                                                                                                
+
 
 
 | **Caso de Uso**  | **Consultar resultado de búsqueda** |        |**CU7** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario   |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF5    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema mostrara las búsquedas realziadas por el Usuario|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El Usuario podrá realizar consultas de los resultados desprendidos por el sistema tras la introducción de los parametros de la misma. |        | |
+                                                                                                                                                                                                                                                                                                                                                                              
+
 
 
 | **Caso de Uso**  | **Borrar resultado de búsqueda** |        |**CU8** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario    |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF5   |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema eliminará los resultados de la búsqueda seleccionados|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El Usuario podrá eliminar los resultados de la búsqueda de la consulta realizada. |        | |
+                                                                                                                                                                                                                                                                                                                                                                              
+
 
 
 | **Caso de Uso**  | **Creacion de usuario** |        |**CU9** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario   |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF1    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema creará un Usuario para poder acceder al sistema BUSCABOD|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | A través de un correo electronico y una contraseña el Usuario podrá acceder al sistema |        | |
+                                                                                                                                                                                                                                                                                                                                                                               
+
 
 
 | **Caso de Uso**  | **Modificar usuario** |        |**CU10** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario  |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF1,RF2    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema modifica los datos asociados a un Usuario        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El Usuario podrá modificar las credenciales de acceso al sistema|        | |
+                                                                                                                                                                                                                                                                                                                                                                               
 
 
 | **Caso de Uso**  | **Borrar Usuario de un grupo de trabajo** |        |**CU11** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario   |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF1,RF2    |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema borrará a un Usuario de un grupo de trabajo concreto|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El usuario podra eliminar a un particpante de un grupo de trabajo concreto |        | |
+                                                                                                                                                                                                                                                                                                                                                                              
+
 
 
 | **Caso de Uso**  | **Crear un grupo de trabajo** |        |**CU12** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario   |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF2   |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema creará un grupo de trabajo determinado, donde se podrán introducir Usuarios|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El Usuario podrá crear diversos grupos de trabajos, para organizar a los distintos Usuarios del sistema|        | |
+                                                                                                                                                                                                                                                                                                                                                                               
+
 
 
 | **Caso de Uso**  | **Borrar un grupo de trabajo** |        |**CU13** |
 |------------------|------------------------|--------|--------|
-| **Actores**      | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Actores**      | Usuario   |        | |
 | **Tipo**         | Primario               |        | |
-| **Referencias**  | xxxxxxxxxxxxxxxxxxx    |        | |
+| **Referencias**  | RF2   |        | |
 | **Precondición** | Ninguna                |        | |
-| **Postcondición**| xxxxxxxxxxxxxxxxxxxxxxx|        | |
+| **Postcondición**| El sistema elimina un grupo de trabajo seleccionado|        | |
 | **Autor**        | Analista               |        | |
-| **Descripción**  | xxxxxxxxxxxxxxxxxxxxxx |        | |
-| **Camino básico**|                        |        | |
-| ACTOR            |                        | SISTEMA| |                                                                                                                                                                                                                                                                                                                                                                                
-| **1**| xxxxxxxxxxxxxxxxx |**2**| XXXXXXXXXXXXXXXXXXXXXX|
-| **3**| XXXXXXXXXXXXXXXXX | **4** | XXXXXXXXXXXXXXXXXXXX|
-| **Caminos Alternativos**| | | |
-| **3b**| xxxxxxxxxxxxxxxx| | |
-|**4b**|xxxxxxxxxxxxxxxxxx| | |
-| **Otros datos** | | | |
-| **Frecuencia esperada**| De 2 a 20 veces al día  | **Rendimiento**     | Menos de 5 seg.    |
-|**Importancia** | Alta | **Urgencia**        | Alta  |
+| **Descripción**  | El usuario tras seleccionar un grupo de trabajo podrá eliminarlo del sistema. |        | |
+                                                                                                                                                                                                                                                                                                                                                                                
+
 
 
 ERS 2.4.- ANÁLISIS DE REQUISITOS
