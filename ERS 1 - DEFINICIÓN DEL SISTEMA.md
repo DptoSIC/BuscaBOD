@@ -2,7 +2,7 @@
 
 ### ERS 1.1.- DETERMINACIÓN DEL ALCANCE DEL SISTEMA
 
-**BUSCABOD**, se desarrollará como una aplicación web, desarrollada en ASP.NET,
+**BUSCABOD**, se desarrollará como una aplicación web, desarrollada en JAVA,
 siendo accesible, únicamente desde los ordenadores conectados a la Red de
 Propósito General del Ministerio de Defensa (WAN-PG), con el fin de gestionar y
 controlar búsquedas interactivas de documentos atendiendo al criterio que se
