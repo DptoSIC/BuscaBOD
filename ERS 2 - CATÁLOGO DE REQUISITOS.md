@@ -145,15 +145,18 @@ De lo anterior se llega a la conclusión de que los casos de uso son:
 | **NUMERACIÓN** | **DESCRIPCIÓN**                           |
 |----------------|-------------------------------------------|
 | CU1            | Autenticar usuario.                       |
-| CU2            | Realizar búsqueda PDF              |
-| CU3            | Guardar parametros de búsqueda             |
+| CU2            | Realizar búsqueda en archivo/s PDF        |
+| CU3            | Guardar parametros de búsqueda            |
 | CU4            | Guardar resultados de búsqueda.           |
-| CU5            | CRUD patrón búsqueda.            |
-| CU6            | Consultar resultado búsqueda.                |
-| CU7            | Borrar resultados búsqueda.                 |
-| CU8            | CRUD Usuario.    |
-| CU9            |    |
-
+| CU5            | Consultar patrón búsqueda.                |
+| CU6            | Borrar patron de búsqueda.                |
+| CU7            | Consultar resultados búsqueda.            |
+| CU8            | Borrar resultado de búsqueda              |
+| CU9            | Creacion de Usuario                       |
+| CU10           | Modificar Usuario                         |
+| CU11           | Borrar Usuario de un Grupo de Trabajo     |
+| CU12           | Crear un grupo de trabajo                 |
+| CU13           | Borrar un grupo de Trabajo                |
 
 Debido a la extensión del Sistema, el elevado número de casos de uso y el escaso
 tiempo que dispone el alumno para realizar la práctica, se han seleccionado tres
