@@ -1,19 +1,20 @@
 ANEXO 1: MATRIZ DE CUMPLIMIENTO DE REQUISITOS
 
-| **CASO DE USO** | **REQUISITOS FUNCIONALES RFXX-ASI**     |       |       |       |       |       |       |       |       |        |        |        |        |        |        |        |        |        |        |        |
-|-----------------|-----------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-|                 | **1**                                   | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** | **11** | **12** | **13** | **14** | **15** | **16** | **17** | **18** | **19** | **20** |
-| CU1             | Autenticar usuario.                     |       |       |       |       |       |       |       |       |        |        |        |        |        |        |        |        |        |        | X      |
-| CU2             | Consultar Lista de Usuarios.            |       |       |       |       |       | X     |       |       |        |        |        |        |        |        |        |        |        |        | X      |
-| CU3             | Mantenimiento de un Usuario.            |       |       |       |       |       | X     |       |       |        |        |        |        |        |        |        |        |        |        |        |
-| CU4             | Consultar lista de proveedores.         |       |       |       | X     |       |       |       |       |        |        |        |        |        |        | X      | X      | X      |        |        |
-| CU5             | Mantenimiento de un proveedor.          |       |       |       | X     |       |       |       |       |        |        |        |        |        |        | X      |        |        |        |        |
-| CU6             | Consultar Lista de Lotes.               |       | X     | X     |       |       |       |       |       | X      |        |        |        |        |        | X      |        |        |        |        |
-| CU7             | Mantenimiento de un Lote.               |       |       | X     |       |       |       |       |       |        |        |        |        |        |        |        |        |        |        |        |
-| CU8             | Consultar lista de Tipos de Ejercicios. |       |       |       |       |       | X     | X     |       |        |        |        |        |        |        |        |        |        |        |        |
-| CU9             | Mantenimiento de un Tipo de Ejercicio.  |       |       |       |       |       |       | X     |       |        |        |        |        |        |        |        |        |        |        |        |
-| CU10            | Consultar lista de Tipos de Formatos.   |       |       |       |       |       |       |       | X     | X      |        |        |        |        |        |        |        |        |        |        |
-| CU11            | Mantenimiento de un Tipo de Formato.    |       |       |       |       |       |       |       | X     |        |        |        |        |        |        |        |        |        |        |        |
+|      |                                       |**RF1**|**RF2**|**RF3**|**RF4**|**RF5**|**RF6**|**RF7**|**RF8**|
+|------|---------------------------------------|-------|-------|-------|-------|-------|-------|-------|-------|
+| CU1  | Autenticar usuario                    |    X  |       |       |       |       |       |       |       |
+| CU2  | Realizar búsqueda en archivo/s PDF    |       |       |     X |       |       |    X  |       |       |
+| CU3  | Guardar parametros de búsqueda        |       |       |       |    X  |       |       |       |       |
+| CU4  | Guardar resultados de búsqueda        |       |       |       |       |    X  |       |       |       |
+| CU5  | Consultar patrón búsqueda             |       |       |       |       |       |    X  |       |       |
+| CU6  | Borrar patron de búsqueda             |       |       |       |       |       |       |       |       |
+| CU7  | Consultar resultados búsqueda         |       |       |       |       |       |       |       |       |
+| CU8  | Borrar resultado de búsqueda          |       |       |       |       |       |       |       |     X |
+| CU9  | Creacion de Usuario                   |       |    X  |       |       |       |       |       |       |
+| CU10 | Modificar Usuario                     |       |    X  |       |       |       |       |       |       |
+| CU11 | Borrar Usuario de un Grupo de Trabajo |       |    X  |       |       |       |       |       |       |
+| CU12 | Crear un grupo de trabajo             |       |       |       |       |       |       |       |       |
+| CU13 | Borrar un grupo de Trabajo            |       |       |       |       |       |       |       |       |
 
 
 [Indice](https://github.com/DptoSIC/BuscaBOD/blob/master/ERS.md)
