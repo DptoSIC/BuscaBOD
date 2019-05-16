@@ -1,65 +1,62 @@
 **ERS 3.- INTERFACES DE USUARIO**
 
-***ERS 3.1- DEFINICIÓN DE LAS INTERFACES DE USUARIO***
-
-****ERS 3.1.- ESPECIFICACIÓN DE PRINCIPIOS GENERALES DE LA INTERFAZ****
-
 Para el desarrollo de las interfaces se usará una interfaz interactiva (gráfica,
-a base de ventanas) tomando como punto de partida el RIUS1-ASI que indica que
+a base de ventanas) tomando como punto de partida el RNF-2 que indica que
 los interfaces de los actores se realizarán mediante la creación de páginas WEB,
-utilizando los mismos colores y disposición de botones que SIGEAL.
+en lenguaje JAVA.
 
-De acuerdo al RIUS2-ASI, la aplicación debe ofrecer el mismo interfaz de usuario
-al acceder a la aplicación independientemente del perfil que tenga Dependiendo
-del perfil, se le habilitarán o no las diversas opciones.
-
-Con carácter general, según el RIUS3-ASI, en todas las interfaces, se podrá
-elegir en todo momento si se cancelan o aceptan las operaciones realizadas.
-
-![](media/823e6ace4579e9e44d65e697248b9ffb.png)
-
-Los mensajes de error, ayuda y otros mensajes aclaratorios se mostrarán mediante
-ventanas emergentes.
-
-Se muestran a modo de modelo y guía para el futuro diseño y construcción de la
-aplicación, diferentes pantallas de la aplicación y la navegación en ella, dando
-a los analistas/programadores una idea exacta de los campos, formularios,
-diálogos y su comportamiento dinámico. Además, permitirá validar la consistencia
-entre los resultados esperados y los datos necesarios a solicitar en los
-formularios y a mostrar en las consultas.
+De acuerdo al RNF-1, la aplicación debe ofrecer el mismo acceso al sistema desde cualquier equipo conectado a la red de Proposito General del MINISDEF, a través del navegador web instalado.
 
 A continuación se muestra un formato de pantalla del portal de la aplicación,
 esta pantalla será la primera a la que se accederá al autenticarse en la
 aplicación.
 
-![](media/e462aee0a7d891a3d9ec677b3e65cf4a.png)
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Inicio.png)
 
-****ERS 3.2.- ESPECIFICACIÓN DE FORMATOS INDIVIDUALES DE LA INTERFAZ DE PANTALLA****
+**CU1 – Autenticar usuario**
 
-A continuación, se presentarán las pantallas de la aplicación para los casos de
-uso descritos, desde un punto de vista estático, con los caminos alternativos
-correspondientes. El formato de entrada se realizará a través de ratón y
-teclado.
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Iniciar%20Sesion.png)
 
-**CU14 – Consultar catálogo de artículos**
+**CU9 - Creacion de Usuario**
 
-![](media/a0d5deab2863e42ba62f0221bfef91c2.png)
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Registar%20nuevo%20usuario.png)
 
-Pantalla de Edición de un Artículo
+**CU2 – Realizar Busqueda en archivo/s PDF**
 
-![](media/debb9d9cc8e2bdb3b24cf3642c1d59b5.png)
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Realizar%20B%C3%BAsqueda%20copy.png)
 
-**CU21 – CREAR UN PEDIDO**
+**CU3 - Guardar parámetros de Búsqueda**
 
-![](media/ac3b77bc746877b47bd55d1add3ca3f6.png)
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Busquedas%20Personalizadas.png)
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Parametros%20guardados.png)
 
-Pantalla de Creación de un pedido
+**CU4 - Guardar resultado de búsqueda**
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Busqueda%20Guardada.png)
 
-![](media/24fd817b1a16645d922b455311ecf238.png)
+**CU6 - Borrar patrón de búsqueda**
 
-Pantalla de Consulta de un pedido
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Busquedas%20Guardadas2.png)
 
-![](media/9ad3d5bcf8a41b0493e7978414ee2dea.png)
+**CU7 - Consultar resultado de búsqueda y CU8 - Borrar resultado de búsqueda**
+
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Consultar%20Resultado.png)
+
+**CU10 - Modificar Usuario**
+
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Pantalla%20usuario.png)
+
+**CU11 - Borrar Usuario de un Grupo de Trabajo y CU12 - Crear Grupo de Trabajo**
+
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Creacion%20_%20modificacion%20grupo.png)
+
+**CU12 - Crear Grupo de Trabajo**
+
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Creacion%20_%20modificacion%20grupo.png)
+
+**CU13 - Borrar Grupo de Trabajo**
+
+![](https://github.com/DptoSIC/BuscaBOD/blob/master/imagenes%20busca%20bod/app/Pantalla%20usuario.png)
+
 
 
 [Indice](https://github.com/DptoSIC/BuscaBOD/blob/master/ERS.md)
