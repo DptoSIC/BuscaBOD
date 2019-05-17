@@ -7,7 +7,7 @@ ANEXO 1: MATRIZ DE CUMPLIMIENTO DE REQUISITOS
 | CU3  | Guardar parametros de búsqueda        |       |       |       |    X  |       |       |       |       |       |        |
 | CU4  | Guardar resultados de búsqueda        |       |       |       |       |    X  |       |       |       |       |        |
 | CU5  | Consultar patrón búsqueda             |       |       |       |       |       |    X  |       |       |       |        |
-| CU6  | Borrar patron de búsqueda             |       |       |       |       |       |       |       |       |       |        |
+| CU6  | Borrar patron de búsqueda             |       |       |       |    X  |       |       |       |       |       |        |
 | CU7  | Consultar resultados búsqueda         |       |       |       |       |       |       |       |       |      X|        |
 | CU8  | Borrar resultado de búsqueda          |       |       |       |       |       |       |       |     X |       |        |
 | CU9  | Creacion de Usuario                   |       |    X  |       |       |       |       |       |       |       |        |
