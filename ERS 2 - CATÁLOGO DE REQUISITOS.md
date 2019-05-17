@@ -14,6 +14,8 @@
 | RF6           | Permitirá realizar una búsqueda con una lista de parámetros en archivos PDF   | Media         | 1             |
 | RF7           | El sistema deberá presentar una excencion de responsabilidad ("Disclaimer") al acceder al sistema | Baja |3|
 | RF8           | El sistema deberá eliminar los archivos que lleven mas de 7 días sin ser modificados| Baja|3|
+| RF9           | El sistema permitirá consultar los resultados de las busquedas realizadas anteriormente| Baja|3|
+| RF10          | El sistema permitirá que los usuarios puedan crear grupos de trabajo para compartir parámetros de búsquedas |Media|3|
 
 **REQUISITOS NO FUNCIONALES**
 
