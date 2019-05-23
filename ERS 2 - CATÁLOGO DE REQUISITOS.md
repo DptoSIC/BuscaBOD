@@ -13,9 +13,8 @@
 | RF5           | Permitirá guardar los resultados de las búsquedas realizadas por cada usuario | Baja          | 3             |
 | RF6           | Permitirá realizar una búsqueda con una lista de parámetros en archivos PDF   | Media         | 1             |
 | RF7           | El sistema deberá presentar una excencion de responsabilidad ("Disclaimer") al acceder al sistema | Baja |3|
-| RF8           | El sistema deberá eliminar los archivos que lleven mas de 7 días sin ser modificados| Baja|3|
-| RF9           | El sistema permitirá consultar los resultados de las busquedas realizadas anteriormente| Baja|3|
-| RF10          | El sistema permitirá que los usuarios puedan crear grupos de trabajo para compartir parámetros de búsquedas |Media|3|
+| RF8           | El sistema permitirá consultar los resultados de las busquedas realizadas anteriormente| Baja|3|
+| RF9           | El sistema permitirá que los usuarios puedan crear grupos de trabajo para compartir parámetros de búsquedas |Media|3|
 
 **REQUISITOS NO FUNCIONALES**
 
@@ -87,11 +86,19 @@ ASI 2.1.1.- REQUISITOS FUNCIONALES
 
 | Identificación  | RF8-ERS                                                                                                                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción     | El sistema realizará acciones de autoborrado de todos aquellos documentos que no hayan sido modificados una vez transcurridos siete (7) dias desde su ultima modificación.      |  
+| Descripción     | El sistema permitirá consultar los resultados de las busquedas realizadas anteriormente      |  
 | Tipo            | Requisito                                                                                                                                                                                                                                                                 |
 | Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
 | Prioridad       | Baja                                                                                                                                                                                                                                                                      |
 | Relacionado con | RF8   
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descripción     | El sistema permitirá que los usuarios puedan crear grupos de trabajo para compartir parámetros de búsquedas      |  
+| Tipo            | Requisito                                                                                                                                                                                                                                                                 |
+| Fuente          | CLIENTE                                                                                                                                                                                                                                                                   |
+| Prioridad       | Media                                                                                                                                                                                                                                                                      |
+| Relacionado con | RF9   
+
+
 
 ERS 2.1.2.- REQUISITOS NO FUNCIONALES
 
