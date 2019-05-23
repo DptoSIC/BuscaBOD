@@ -37,7 +37,7 @@ Se trataron los siguientes temas:
 2.3.  **. Definir la plataforma tecnológica, lenguaje de programación y
         herramientas.**
 
-**Lenguaje de programación:** JAVA, JAVASCRIPT, HTML, CSS
+**Lenguaje de programación:** JAVA, JAVASCRIPT
 
 **Motor de base de datos:** MYSQL.
 
