@@ -80,7 +80,7 @@ las historias de usuario del sistema.
 El product Owner definió la prioridad de cada historia de usuario de la
 siguiente forma:
 
-|CASO DE USO|PRIORIDAD|
+|Historia de Usuario|PRIORIDAD|
 |-|-|
 |**US1:**| 3|
 |**US2:**| 1|
