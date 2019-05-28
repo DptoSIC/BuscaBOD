@@ -12,6 +12,8 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.text.PDFTextStripper;
 
+import com.esotericsoftware.jsonbeans.Json;
+
 
 /**
  * Highlighting of words in a PDF document with an XML file.
@@ -26,12 +28,11 @@ public class High extends PDFTextStripper
 {
 
 	private Writer highlighterOutput = null;
-
     private String[] searchedWords;
     private ByteArrayOutputStream textOS = null;
     private Writer textWriter = null;
     private static final String ENCODING = "UTF-16";
-
+    Result result;
     /**
      * Default constructor.
      *
@@ -43,6 +44,7 @@ public class High extends PDFTextStripper
         super.setWordSeparator( "" );
         super.setShouldSeparateByBeads( false );
         super.setSuppressDuplicateOverlappingText( false );
+        result = new Result();
     }
 
     /**
@@ -99,18 +101,25 @@ public class High extends PDFTextStripper
         }
         for (String searchedWord : searchedWords)
         {
+        	//String regex = "(^.*)("+searchedWord+")(.*$)";
             Pattern pattern = Pattern.compile(searchedWord, Pattern.CASE_INSENSITIVE);
+        	//Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
             Matcher matcher = pattern.matcher(page);
+            
             while( matcher.find() )
             {
                 int begin = matcher.start();
                 int end = matcher.end();
+                //System.out.println("found: " + matcher.group(2));
                 highlighterOutput.write("    <loc " +
                         "pg=" + (getCurrentPageNo()-1)
                         + " pos=" + begin
                         + " len="+ (end - begin)
                         + ">\n");
+                Location loc = new Location(getCurrentPageNo()-1, begin, searchedWord, searchedWord);
+                result.addLocation(loc);
             }
+            
         }
     }
 
@@ -122,16 +131,17 @@ public class High extends PDFTextStripper
      *
      * @throws IOException If there is an error generating the highlight file.
      */
-    public void highlight(String path, String[] toFind) throws IOException
+    public String highlight(String path, String[] toFind) throws IOException
     {
-        High xmlExtractor = new High();
         String[] highlightStrings = new String[toFind.length];
         System.arraycopy(toFind, 0, highlightStrings, 0, highlightStrings.length);
         ByteArrayOutputStream os = new ByteArrayOutputStream();
+        result.setPath(path);
         
         try (PDDocument doc = PDDocument.load(new File(path)))
         {
-			xmlExtractor.generateXMLHighlight(
+			//xmlExtractor.generateXMLHighlight(
+        	generateXMLHighlight(
                 doc,
                 highlightStrings,
                 new OutputStreamWriter( os) );
@@ -139,5 +149,8 @@ public class High extends PDFTextStripper
 			String aString = new String(os.toByteArray(), "UTF-8");
 			System.out.println(aString);
         }
+        Json json = new Json();
+        return json.toJson(result);
+        
     }
 }

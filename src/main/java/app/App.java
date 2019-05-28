@@ -6,6 +6,8 @@ import org.apache.lucene.document.Document;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.highlight.InvalidTokenOffsetsException;
 
+import com.esotericsoftware.jsonbeans.Json;
+
 public class App {
 
 	
@@ -16,11 +18,11 @@ public class App {
         String docsPath = "pdfs";
         String[] toFind = {"recibidas", "UNIDO"};
         String path = "pdfs\\informe-brechas-2019-03.pdf";
+        boolean create = true;
         
         
-        //Indexer indexer = new Indexer(indexPath, docsPath);
-        //indexer.doIndex();
-        IndexPDFFiles.main(args);
+        IndexPDFFiles indexer = new IndexPDFFiles(indexPath, docsPath, create);
+        indexer.index();
         Searcher searcher = new Searcher(indexPath, docsPath);
         try {
         	for (String word: toFind) {
@@ -35,7 +37,9 @@ public class App {
         
         try {
         	High h = new High();
-        	h.highlight( path, toFind );
+        	String jsonString = h.highlight(path, toFind );
+        	Json json = new Json();
+        	System.out.println(json.prettyPrint(jsonString));
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

@@ -24,11 +24,17 @@ import org.apache.lucene.store.FSDirectory;
  * <p>
  * It's based on a demo provided by the lucene project.
  */
-public final class IndexPDFFiles
+public class IndexPDFFiles
 {
+	
+	String indexPath = "indexes";
+    String docsPath = "pdfs";
+    boolean create = true;
 
-    private IndexPDFFiles()
-    {
+    public IndexPDFFiles(String indexPath, String docsPath, boolean create) {
+		this.indexPath = indexPath;
+		this.docsPath = docsPath;
+		this.create = create;
     }
 
     /**
@@ -37,16 +43,8 @@ public final class IndexPDFFiles
      * @param args command line arguments
      * 
      */
-    public static void main(String[] args)
+    public void index()
     {
-    	//path donde va la base de datos
-    	String indexPath = "indexes";
-    	
-    	//path donde van los pdf
-        String docsPath = "pdfs";
-        
-        //true = crear nueva base de datos, false = update base datos existente
-        boolean create = true;
 
         final File docDir = new File(docsPath);
         if (!docDir.exists() || !docDir.canRead())
