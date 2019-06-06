@@ -74,6 +74,67 @@ public class Searcher {
             System.out.println("Pages: "+ d.get("Pages"));
         }
         
+        //Uses HTML &lt;B&gt;&lt;/B&gt; tag to highlight the searched terms
+        Formatter formatter = new SimpleHTMLFormatter();
+        
+        //analyzer with the default stop words
+        Analyzer analyzer = new StandardAnalyzer();
+        
+        //Get directory reference
+        Directory dir = FSDirectory.open(Paths.get(indexPath));
+        IndexReader reader = DirectoryReader.open(dir);
+        
+        //Query parser to be used for creating TermQuery
+        //QueryParser qp = new QueryParser("All", analyzer);
+         
+        //Create the query
+        //Query query = qp.parse(toFind);
+        //Create search query
+        //QueryParser qp = new QueryParser("contents", new StandardAnalyzer());
+		//Query query = qp.parse(toFind);
+        
+        //It scores text fragments by the number of unique query terms found
+        //Basically the matching score in layman terms
+        QueryScorer scorer = new QueryScorer(query);
+         
+        //used to markup highlighted terms found in the best sections of a text
+        //Highlighter highlighter = new Highlighter(formatter, scorer);
+        Highlighter highlighter = new Highlighter(scorer);
+        //It breaks text up into same-size texts but does not split up spans
+        Fragmenter fragmenter = new SimpleSpanFragmenter(scorer, 10);
+         
+        //breaks text up into same-size fragments with no concerns over spotting sentence boundaries.
+        //Fragmenter fragmenter = new SimpleFragmenter(10);
+         
+        //set fragmenter to highlighter
+        highlighter.setTextFragmenter(fragmenter);
+         
+        //Iterate over found results
+        for (int i = 0; i < foundDocs.scoreDocs.length; i++) 
+        {
+            int docid = foundDocs.scoreDocs[i].doc;
+            Document doc = searcher.doc(docid);
+            String title = doc.get("path");
+             
+            //Printing - to which document result belongs
+            System.out.println("Path " + " : " + title);
+             
+            //Get stored text from found document
+            String text = doc.get("contents");
+ 
+            //Create token stream
+            //TokenStream stream = TokenSources.getAnyTokenStream(reader, docid, "contents", analyzer);
+             
+            //Get highlighted text fragments
+            String[] frags = highlighter.getBestFragments(analyzer, "contents", text, 10);
+            for (String frag : frags) 
+            {
+                System.out.println("=======================");
+                System.out.println(frag);
+            }
+        
+        }
+        
         
 	}
 	

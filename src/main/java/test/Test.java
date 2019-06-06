@@ -102,7 +102,7 @@ public class Test {
  
             System.out.println("reader maxDoc is " + idxReader.maxDoc());
             System.out.println("scoreDoc size: " + hits.scoreDocs.length);
-            for (int i = 0; i < hits.totalHits.value; i++) {
+            for (int i = 0; i < hits.totalHits; i++) {
                 int id = hits.scoreDocs[i].doc;
                 Document docHit = idxSearcher.doc(id);
                 String text = docHit.get("content");
